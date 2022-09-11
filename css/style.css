@@ -9,6 +9,7 @@ h1{
         font-size: 3rem;
     }
 
+
 .row{
     /* padding: 20px; */
     margin: 30px 0;
@@ -20,7 +21,10 @@ h1{
     justify-content: space-between;
 } */
 .titre-h2 h2{
-    font-size: 2em;
+    font-size: 2rem;
+}
+h3{
+    font-size:1.7rem;
 }
 .button{
     background-color: rgba(206, 0, 51);
@@ -73,6 +77,12 @@ li{
 @media (max-width: 650px){
     h1{
         font-size: 2rem;
+    }
+    h2{
+        font-size:1.3rem;
+    }
+    h3{
+        font-size:1.1rem;
     }
     .column{
         margin: 0;
